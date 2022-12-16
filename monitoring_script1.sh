@@ -71,3 +71,5 @@ msg=`cat $LOG`
 echo -e "$msg" | mail -a $LOG -s " PostgreSQL -  Production Database Health Check " $MAILTO
 
 ------This is my addition line1 $
+
+------This is Class2 change and more work is coming
